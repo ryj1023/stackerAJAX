@@ -37,7 +37,7 @@
 	<div class="templates hidden">
 		<dl class="result question">
 			<dt>Question</dt>
-				<dd class="question-text"><a href="" target="_blank"></a></dd>
+				<dd class="question-text"><a href="" target="myTab"></a></dd>
 			<dt>Asked</dt>
 				<dd class="asked-date"></dd>
 			<dt>Viewed</dt>
@@ -48,8 +48,19 @@
 		<div class="error">
 			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
 		</div>
+	<dl class="users">
+		<dt>Name</dt>
+			<dd class="name-text"><a href="" target="myUsers"></a></dd>
+		<dt>User Type</dt>
+			<dd class="user-type-text"></dd>
+		<dt>Image</dt>
+			<dd class="image"><img class="image" src=""></dd>
+		<dt>Score</dt>
+			<dd class="score"></dd>
+		</dl>
 	</div>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/app.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=APIready"></script>
 </body>
 </html>
